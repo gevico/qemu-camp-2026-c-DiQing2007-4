@@ -8,8 +8,6 @@ typedef struct {
 } Student;
 
 void insertion_sort(Student students[], int n) {
-    // TODO: 在这里添加你的代码
-    // I AM NOT DONE
     Student *ed = malloc(n * sizeof(Student));
     for(int i = 0; i < n ; i++){
         Student tmp = students[i];
